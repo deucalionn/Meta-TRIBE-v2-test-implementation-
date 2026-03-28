@@ -1,0 +1,5 @@
+cache/
+out/
+videos/
+venv/
+__pycache__/

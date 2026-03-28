@@ -1,0 +1,10 @@
+# Video -> TRIBE v2 -> brain PDF (see README.md).
+#
+# Install:  python -m venv venv && source venv/bin/activate
+#           pip install -r requirements.txt
+#
+# Also:     huggingface-cli login  (weights + gated Llama access)
+# Optional: uv on PATH for default WhisperX transcription (or use --audio-only-events).
+#
+# The [plotting] extra adds PyVista, nilearn, matplotlib, nibabel, seaborn, etc.
+tribev2[plotting]==0.1.0
